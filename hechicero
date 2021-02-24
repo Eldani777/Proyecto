@@ -1,0 +1,12 @@
+package juego;
+
+public class hechicero extends personaje{
+
+	protected boolean sombrero = false;
+	
+		protected hechicero(String nombre, String fisico1, String fisico2, String magico1, String magico2, String eficacia) {
+			super(nombre, fisico1, fisico2, magico1, magico2, eficacia);
+			this.sombrero = false;
+	}
+
+}
