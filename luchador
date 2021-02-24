@@ -1,0 +1,12 @@
+package juego;
+
+public class luchador extends personaje{
+
+	protected boolean guantes;
+	
+	protected guantes(String nombre, String fisico1, String fisico2, String magico1, String magico2, String eficacia) {
+		super(nombre, fisico1, fisico2, magico1, magico2, eficacia);
+		this.guantes = false;
+		}
+
+}
