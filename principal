@@ -1,0 +1,50 @@
+package juego;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+		String respuesta="Si";
+		int opcion;
+		Scanner sc = new Scanner(System.in);
+		//System.out.println();
+		System.out.println("RPG Dungeon");
+		System.out.println("Bienvenido");
+		
+		do {
+			System.out.println("Que acción desea realizar?");
+			System.out.println("1. Crear un nuevo personaje");
+			System.out.println("2. Ver personajes creados");
+			System.out.println("3. Analizar enemigo");
+			System.out.println("4. Intrucciones");
+			System.out.println("5. Salir");
+			opcion = sc.nextInt();
+			
+			switch(opcion) {
+				case 1:
+					System.out.println("Cada personaje creado solo puede tener 2 atributos fisicos, 2 atributos magicos y 1 efectividad");
+					System.out.println("Elija 2 atributos fisicos para su personaje entre los otorgados");
+					System.out.println("Fuerza fisica / Velocidad / Inteligencia");
+					System.out.println("Destreza / Concentracion / Astucia");
+					for(int i = 0;i < 2;i++) {
+						
+					}
+					
+				break;
+				case 2:
+					
+				break;
+				case 3:
+					
+				break;
+				case 4:
+					
+				break;
+				default:	
+			}
+		} while (respuesta.equals("Si"));
+	}
+
+}
